@@ -1,0 +1,20 @@
+.top-header {
+  font-size: 14px;
+  /* border-bottom: 1px solid #7e7e7e; */
+}
+
+.top-header a {
+  color: #7e7e7e;
+}
+
+.top-header a:hover {
+  color: #000;
+}
+
+.top-header .dropdown-menu {
+  z-index: 1021;
+}
+
+.top-header .dropdown .dropdown-item {
+  font-size: 14px;
+}
