@@ -9,7 +9,7 @@ const Navbar = () => {
   const [flag, setFlag] = useState(false);
   return (
     <>
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg sticky">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <button

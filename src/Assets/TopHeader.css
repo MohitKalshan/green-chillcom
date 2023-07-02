@@ -18,3 +18,7 @@
 .top-header .dropdown .dropdown-item {
   font-size: 14px;
 }
+.top-header .dropdown .dropdown-item img {
+  width: 16px;
+  margin: 0 4px;
+}

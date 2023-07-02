@@ -1,29 +1,67 @@
 import React from "react";
-import "../Assets/DropdownList.css"
+import "../Assets/DropdownList.css";
+
 import plusIcon from "../icon/plus-icon.svg";
 const Dropdown = () => {
   return (
     <>
       <div className="main-container">
         <div className="list-container">
-          
-            <ul className="list">
-              <li>Milk and Dairies</li>
-              <li>Clothing & Beauty</li>
-              <li>Pet foods & Toys</li>
-              <li>Baking Materials</li>
-              <li>Fresh Fruits</li>
-            </ul>
-         
-          
-            <ul className="list">
-              <li>Wines & Drinks</li>
-              <li>Fresh Seafoods</li>
-              <li>Fastfood</li>
-              <li>Vegetables</li>
-              <li>Bread & Juice</li>
-            </ul>
-       
+          <ul className="list">
+            <li>
+              <img src="" />
+              Milk and Dairies
+            </li>
+            <li>
+              {" "}
+              <img src="" />
+              Clothing & Beauty
+            </li>
+            <li>
+              {" "}
+              <img src="" />
+              Pet foods & Toys
+            </li>
+            <li>
+              {" "}
+              <img src="" />
+              Baking Materials
+            </li>
+            <li>
+              {" "}
+              <img src="" />
+              Fresh Fruits
+            </li>
+          </ul>
+
+          <ul className="list">
+            <li>
+              {" "}
+              <img src="" />
+              Wines & Drinks
+            </li>
+            <li>
+              {" "}
+              <img src="" />
+              Fresh Seafoods
+            </li>
+            <li>
+              {" "}
+              <img src="" />
+              Fastfood
+            </li>
+            <li>
+              {" "}
+              <img src="" />
+              Vegetables
+            </li>
+            <li>
+              {" "}
+              <img src="" />
+              Bread & Juice
+            </li>
+          </ul>
+
           {/* plus icon */}
         </div>
         <div className="plus-icon">

@@ -1,5 +1,8 @@
 import React from "react";
 import "../Assets/TopHeader.css";
+import frIcon from "../icon/flag-fr.png"
+import dtIcon from "../icon/flag-dt.png"
+import ruIcon from "../icon/flag-ru.png"
 const TopHeader = () => {
   return (
     <>
@@ -59,21 +62,21 @@ const TopHeader = () => {
             <ul className="dropdown-menu">
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-fr" />
+                  <img src={frIcon} alt="flag-fr" />
                   Francias
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-dt" />
+                  <img src={dtIcon} alt="flag-dt" />
                   Deutchs
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-ru" />
+                  <img src={ruIcon} alt="flag-ru" />
                   Pусский
                 </a>
               </li>
@@ -94,21 +97,21 @@ const TopHeader = () => {
             <ul className="dropdown-menu">
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-fr" />
+                  <img src={frIcon} alt="flag-fr" />
                   INR
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-dt" />
+                  <img src={dtIcon} alt="flag-dt" />
                   MBP
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-ru" />
+                  <img src={ruIcon} alt="flag-ru" />
                   EU
                 </a>
               </li>
