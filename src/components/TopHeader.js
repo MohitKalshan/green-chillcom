@@ -5,9 +5,10 @@ import dtIcon from "../icon/flag-dt.png"
 import ruIcon from "../icon/flag-ru.png"
 const TopHeader = () => {
   return (
-    <>
-      <div className="row align-item-center top-header">
-        <ul className="nav nav-pills col-xl-4 col-lg-4">
+   
+      <div className="row align-item-center top-header ">
+      <div className="header-info w-auto">
+        <ul className="nav nav-pills">
           <li className="nav-item">
             <a className="nav-link" href="/">
               About Us
@@ -32,7 +33,8 @@ const TopHeader = () => {
           </li>
         </ul>
 
-        <div className="nav align-item-center col-xl-5 col-lg-4">
+          </div>
+        <div className="nav align-item-center w-auto">
           <li className="nav-item" id="banner">
             <a className="nav-link" href="/">
             100% Secure delivery without contacting the courier
@@ -40,7 +42,7 @@ const TopHeader = () => {
           </li>
         </div>
 
-        <ul className="nav nav-pills col-xl-3 col-lg-4">
+        <ul className="nav nav-pills w-auto">
           <li className="nav-item">
             <a className="nav-link d-flex" href="/">
               {" "}
@@ -120,7 +122,6 @@ const TopHeader = () => {
         </ul>
        
       </div>
-    </>
   );
 };
 

@@ -2,13 +2,30 @@
 .custom {
   font-family: "Quicksand";
   text-align: left;
+  /* overflow: hidden !important; */
+  white-space: nowrap !important;
+  /* text-overflow: ellipsis !important; */
 }
 
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  /* margin-top: 40vh; */
+  /* background: #476ce4; */
+  border-radius: 10px;}
+
+  .carousel-item {
+    /* padding: 5% 15%; */
+    text-align: center;
+
+  }
+
 .custom h1 {
-    font-family: "Quicksand", sans-serif;
-    color: #253d4e;
-    font-weight: 700;
-    line-height: 1.2;
+  font-family: "Quicksand", sans-serif;
+  color: #253d4e;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .custom p {
@@ -34,12 +51,12 @@
   color: red;
   }
   
-  .custom {
+  /* .custom {
   font-family: "Quicksand";
   text-align: left;
   left: 100px;
-  margin-bottom: 130px;
-  }
+  margin-bottom: 100px;
+  } */
   
   .custom h1 {
   font-size: 72px;
