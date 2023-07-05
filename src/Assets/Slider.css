@@ -3,7 +3,7 @@
   font-family: "Quicksand";
   text-align: left;
   /* overflow: hidden !important; */
-  white-space: nowrap !important;
+  /* white-space: nowrap !important; */
   /* text-overflow: ellipsis !important; */
 }
 
@@ -39,11 +39,11 @@
 
 .news-form input {
   padding: 20px 20px;
-  width: 300px;
+  /* width: 300px; */
 }
 
 .news-form button {
-  width: 150px;
+  /* width: 150px; */
   background-color: #3bb77e;
 }
 #newsletter {

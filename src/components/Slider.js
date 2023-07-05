@@ -26,8 +26,8 @@ const Slider = () => {
         </div>
 
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={sliderImage} class="w-100 rounded-5" alt="slider1" />
+          <div class="carousel-item active" style={{backgroundImage:{sliderImage}}}>
+            {/* <img src={sliderImage} class="w-100 rounded-5" alt="slider1" /> */}
             {/* <div className=""> */}
               <h1>
                 Don’t miss amazing
@@ -112,6 +112,39 @@ const Slider = () => {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div class="tcb-bs-fullscreen">
+        <div id="carousel-example-generic" class="carousel slide carousel-bg" data-ride="carousel">
+            {/* <!-- Indicators --> */}
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            {/* <!-- Wrapper for slides --> */}
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" style={{backgroundImage:{sliderImage2}}}>
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item" style={{backgroundImage: "url(https://unsplash.it/1600/840?image=545)"}}>
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                
+            </div>
+            {/* <!-- Controls --> */}
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
     </>
   );
 };
